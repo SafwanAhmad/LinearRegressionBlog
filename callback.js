@@ -59,7 +59,7 @@ new_cost = coeff_constant + coeff_c_squared * new_intercept * new_intercept
                           + coeff_m * new_slope
                           + coeff_m_c * new_slope * new_intercept
 
-console.log(sphere)
+console.log(line)
 
 nb_rows = sphere['x'].length
 nb_cols = sphere['x'][0].length
