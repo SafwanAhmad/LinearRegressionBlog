@@ -26,11 +26,13 @@ if (title == "Slope")
     slider_value = Math.tan(slider_value*Math.PI/180)
     new_slope = slider_value
     new_intercept = old_intercept
+    console.log("Slope changed")
 }
 else
 {
     new_slope = old_slope
     new_intercept = slider_value
+    console.log("Intercept changed")
 }
 
 y_end_points[0] = new_slope * x_end_points[0] + new_intercept
